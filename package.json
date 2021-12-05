@@ -1,0 +1,41 @@
+{
+  "name": "authentication",
+  "version": "1.0.0",
+  "description": "Express 4.x app using Passport for authentication with username and password.",
+  "keywords": [
+    "example",
+    "express",
+    "passport"
+  ],
+  "author": "QiZhang",
+  "license": "Unlicense",
+  "dependencies": {
+    "app": "^0.1.0",
+    "body-parser": "^1.19.0",
+    "connect-ensure-login": "^0.1.1",
+    "cookie-signature": "^1.1.0",
+    "ejs": "^2.7.4",
+    "express": "^4.17.1",
+    "express-session": "^1.16.1",
+    "methods": "^1.1.2",
+    "mongoose": "^6.0.14",
+    "morgan": "^1.10.0",
+    "ms": "^2.1.3",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^6.1.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zq170829/m4-w2-d1-homework-authapp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zq170829/m4-w2-d1-homework-authapp/issues"
+  },
+  "homepage": "https://github.com/zq170829/m4-w2-d1-homework-authapp#readme"
+}
